@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--WebApp全屏模式   隐藏地址栏-->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<!--苹果强制全屏显示-->
+		<meta name="apple-touch-fullscreen" content="yes"/>
+		<!--强制全屏显示-->
+		<meta name="full-screen" content="yes"/>
+		<!--制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明）-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<!--告诉设备忽略将页面中的数字识别为电话号码 -->
+		<meta name="format-detection" content="telephone=no"/>
+		<!--告诉设备忽略将页面中的地址识别 -->
+		<meta name="format-detection" content="address=no"/>
+		<link rel="stylesheet" type="text/css" href="swiper-3.4.2.min.css"/>
+	</head>
+	<style type="text/css">
+			body{
+				/*移动端的字体*/
+				font-family: helvetica;
+					
+					margin: 0;
+					background:#e5e5e5;
+				}
+			body *{
+				/*是解决 iPhone 横屏时默认会放大文字的问题，可是我试过，上面的css并不能解决，然后我发现 meta viewport 的initial-scale=1 倒是可以解决这个放大问题。*/
+				-webkit-text-size-adjust: 100%;
+				/*不想让用户复制文字，或是用a标签做了个点击按钮，点快的时候文字会被选中，很丑，这个时候可以使用下面的方案禁止文字选中。*/
+				-webkit-user-select: none;
+			}
+			a,button,input{
+				/*这个属性只用于iOS (iPhone和iPad)。当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景。要重设这个表现，你可以设置-webkit-tap-highlight-color为任何颜色。*/
+				/*想要禁用这个高亮，设置颜色的alpha值为0即可。*/
+				/*取消手机浏览器默认外边框样式*/
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+			}
+			button,input{
+				/*取消ios浏览器按钮默认样式*/
+				-webkit-appearance: none;
+			}
+			a{
+				text-decoration: none;
+				color: #333333;
+			}
+			input{
+				outline: none;
+				vertical-align: middle;
+			}
+			ul{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			li{
+				margin: 0;
+				padding: 0;
+			}
+			/*图片靠上*/
+			img{
+				vertical-align: top;
+			}
+			h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,ol,form,div{
+				margin: 0;
+				padding: 0;
+			}
+			.header{
+				height: .49rem;
+				background: #fe4300;
+				font-size: .14rem;
+				display: flex;
+				justify-content: space-between;
+				padding: 0 .1rem;
+				box-sizing: border-box;
+				
+			}
+			.header div {
+				padding-top: .1rem;
+				box-sizing: border-box;
+				text-align: center;
+				color: white;
+			}
+			.header div img{
+				width: .22rem;
+				height: .2rem;
+			}
+			.search{
+				height: .4rem;
+				position: relative;
+				border-bottom:1px solid white;
+			}
+			.search input{
+				width: 2.04rem;
+				box-sizing: border-box;
+				outline: none;
+				border: none;
+				
+				background: #fe4300;
+				margin-top: .06rem;
+				background: url(tt/效果图1_09.png) no-repeat .2rem 0;
+				padding-left: .4rem;
+				padding-bottom: .05rem;
+				
+			}
+			.search:before,.search:after{
+				content: "";
+				display: block;
+				width: 0.02rem;
+				height: 0.05rem;
+				background: white;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			.search:before{
+				left: 0;
+			}
+			
+			 input::-webkit-input-placeholder{
+	            color:white;
+	        }
+		    input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+	            color:white;
+	        }
+	        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+	            color:white;
+	        }
+	        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+	            color:white;
+	        }
+	       	
+      
+				
+	</style>
+	<body>
+		<header class="header">
+			<div>
+				<img src="tt/效果图1_03.png"/>
+				<p>扫一扫</p>
+			</div>
+			<div class="search">
+				<input type="text"  placeholder="芊芊玉手如何保养"/>
+			</div>
+			<div>
+				<img src="tt/效果图1_06.png"/>
+				<p>消息</p>
+			</div>
+			
+			
+		</header>
+		
+		
+	</body>
+	<script src="swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	 (function(doc,win){  
+    	 var docEl =doc.documentElement,  
+             resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',  
+             recalc = function(){  
+                 var clientWidth = docEl.clientWidth>403 ? 403 :docEl.clientWidth;  
+                 if (!clientWidth) {return};  
+                 docEl.style.fontSize = 100 * (clientWidth/403) + 'px';  
+             };  
+	     recalc();  
+	     if (!doc.addEventListener) return;  
+	     win.addEventListener(resizeEvt, recalc, false);  
+	     doc.addEventListener('DOMContentLoaded', recalc, false);  
+	 })(document,window) 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+		
+		
+		
+		
+	</script>
+</html>

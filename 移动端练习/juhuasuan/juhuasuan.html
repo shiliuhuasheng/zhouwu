@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--WebApp全屏模式   隐藏地址栏-->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<!--苹果强制全屏显示-->
+		<meta name="apple-touch-fullscreen" content="yes"/>
+		<!--强制全屏显示-->
+		<meta name="full-screen" content="yes"/>
+		<!--制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明）-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<!--告诉设备忽略将页面中的数字识别为电话号码 -->
+		<meta name="format-detection" content="telephone=no"/>
+		<!--告诉设备忽略将页面中的地址识别 -->
+		<meta name="format-detection" content="address=no"/>
+		<link rel="stylesheet" type="text/css" href="css/phone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/juhuasuan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<div class="head_left"><</div>
+				
+			
+			<div class="jhs">
+				<a>聚划算</a>
+			</div>
+			<div class="head_right">
+				<img src="img/2017-06-01_161502.png"/>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</header>
+		<!--主体部分-->
+		<div id="mian">
+			<!--导航栏-->
+			<div id="nav">
+				<ul>
+					<li><a>全部</a></li>
+					<li><a>女装</a></li>
+					<li><a>男装</a></li>
+					<li><a>鞋包</a></li>
+					<li><a>运动</a></li>
+					<li><a>内衣饰品</a></li>
+				</ul>
+				<div class="nav-right">></div>
+			</div>
+			<!--轮播图部分-->
+			<div class="swiper-container" id="swiper1">
+			  <div class="swiper-wrapper">
+			    <div class="swiper-slide active"><img src="img/2017-06-01_161536.png"/></div>
+			    <div class="swiper-slide"><img src="img/2017-06-01_161536.png"/></div>
+			    <div class="swiper-slide"><img src="img/2017-06-01_161536.png"/></div>
+			  </div>
+			  <!--分页器-->
+			  <div class="swiper-pagination"></div>
+			</div>
+			<!--广告部分-->
+			<div class="advertising"></div>
+				
+			<!--产品部分-->
+			<div class="product">
+				<div class="product-left">
+					<ul>
+						<li>
+							<p>非常大牌</p>
+							<p>大牌尖货抄低价</p>
+							<p>型男必备清单</p>
+						</li>
+						<li><img src="img/2017-06-01_161633.png"/></li>
+					</ul>
+					<ul>
+						<li>
+							<p>非常大牌</p>
+							<p>大牌尖货抄低价</p>
+							<p>型男必备清单</p>
+						</li>
+						<li><img src="img/2017-06-01_161633.png"/></li>
+					</ul>
+				</div>
+				
+				<div class="product-right">
+					<ul>
+						<li>
+							<p>聚名品</p>
+							<p>全球奢品折扣</p>
+							<img src="img/2017-06-01_161646.png"/>
+						</li>
+						<li>
+							<p>聚名品</p>
+							<p>全球奢品折扣</p>
+							<img src="img/2017-06-01_161646.png"/>
+						</li>
+						<li>
+							<p>聚名品</p>
+							<p>全球奢品折扣</p>
+							<img src="img/2017-06-01_161646.png"/>
+						</li>
+						<li>
+							<p>聚名品</p>
+							<p>全球奢品折扣</p>
+							<img src="img/2017-06-01_161646.png"/>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			<!--关注-->
+			<div id="attention"></div>
+		</div>
+		
+		<!--底部部分-->
+		<div id="footer">
+			<ul>
+				<li>
+					<img src="img/2017-06-01_161823.png"/>
+					<p>今日</p>
+				</li>
+				<li>
+					<img src="img/2017-06-01_161823.png"/>
+					<p>今日</p>
+				</li>
+				<li>
+					<img src="img/2017-06-01_161823.png"/>
+					<p>今日</p>
+				</li>
+				<li>
+					<img src="img/2017-06-01_161823.png"/>
+					<p>今日</p>
+				</li>
+			</ul>
+		</div>
+		
+		
+		
+	</body>
+	<script src="css/swiper-3.4.2.min.js"></script>
+	<script>
+		
+		(function(doc,win){  
+    	 var docEl =doc.documentElement,  
+             resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',  
+             recalc = function(){  
+                 var clientWidth = docEl.clientWidth>1242 ? 1242 :docEl.clientWidth;  
+                 if (!clientWidth) {return};  
+                 docEl.style.fontSize = 100 * (clientWidth/1242) + 'px';  
+             };  
+	     recalc();  
+	     if (!doc.addEventListener) return;  
+	     win.addEventListener(resizeEvt, recalc, false);  
+	     
+	     doc.addEventListener('DOMContentLoaded', recalc, false); 
+	     
+	 })(document,window)
+		
+		var mySwiper = new Swiper('#swiper1', {
+			autoplayDisableOnInteraction : false,
+			autoplay: 2000,//可选选项，自动滑动
+			pagination : '.swiper-pagination',//分页器
+			speed:600,
+//			loop:true,//循环轮播
+			
+		})
+		
+	</script>
+</html>

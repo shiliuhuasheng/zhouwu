@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--WebApp全屏模式   隐藏地址栏-->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<!--苹果强制全屏显示-->
+		<meta name="apple-touch-fullscreen" content="yes"/>
+		<!--强制全屏显示-->
+		<meta name="full-screen" content="yes"/>
+		<!--制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明）-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<!--告诉设备忽略将页面中的数字识别为电话号码 -->
+		<meta name="format-detection" content="telephone=no"/>
+		<!--告诉设备忽略将页面中的地址识别 -->
+		<meta name="format-detection" content="address=no"/>
+		<link rel="stylesheet" type="text/css" href="css/phone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tianmao.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		
+	</head>
+	<body>
+		<header>
+			<div class="head_left"><</div>
+				
+			
+			<div class="jhs">
+				<a>天猫国际</a>
+			</div>
+			<div class="head_right">
+				<img src="img/2017-06-01_162055.png"/>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</header>
+		<!--主体-->
+		
+		<div id="mian">
+			<div id="nav">
+				<div class="nav-left">
+					
+				</div>
+				<div class="swiper-container" id="swiper1">
+				  <div class="swiper-wrapper">
+				    <div class="swiper-slide active">家居</div>
+				    <div class="swiper-slide">服饰</div>
+				    <div class="swiper-slide">数码</div>
+				    <div class="swiper-slide">美装</div>
+				    <div class="swiper-slide">食物</div>
+				    <div class="swiper-slide">科技</div>
+				    <div class="swiper-slide">新闻</div>
+				    <div class="swiper-slide">你好</div>
+				  </div>
+				  <!--分页器-->
+				  <div class="swiper-pagination"></div>
+				</div>
+				
+				<div class="nav-right">></div>
+			</div>
+			<!--轮播图-->
+			<div class="swiper-container" id="swiper2">
+				 <div class="swiper-wrapper">
+				    <div class="swiper-slide active"><img src="img/2017-06-01_162148.png"/></div>
+				    <div class="swiper-slide"><img src="img/2017-06-01_162148.png"/></div>
+				    <div class="swiper-slide"><img src="img/2017-06-01_162148.png"/></div>
+				    <div class="swiper-slide"><img src="img/2017-06-01_162148.png"/></div>
+				    
+				  </div>
+				  <!--分页器-->
+				  <div class="swiper-pagination"></div>
+			</div>
+			
+			<!--产品介绍-->
+			<div class="produc">
+				<div class="produc-left">
+					
+				</div>
+				<div class="produc-right">
+					<div class=""><img src="img/2017-06-01_162247.png"/></div>
+					<div class=""><img src="img/2017-06-01_162303.png"/></div>
+					
+				</div>
+				
+			</div>
+			<!--广告-->
+			<div id="advertising">
+				
+			</div>
+			
+			
+			
+			
+			
+		</div>
+		<!--尾部-->
+		<div id="footer">
+			<ul>
+				<li>
+				<img src="img/2017-06-01_162343.png"/>
+				<p>天猫国际</p>
+				</li>
+				<li>
+				<img src="img/2017-06-01_162343.png"/>
+				<p>天猫国际</p>
+				</li>
+				<li>
+				<img src="img/2017-06-01_162343.png"/>
+				<p>天猫国际</p>
+				</li>
+				
+				<li>
+				<img src="img/2017-06-01_162343.png"/>
+				<p>天猫国际</p>
+				</li>
+				
+				<li>
+				<img src="img/2017-06-01_162343.png"/>
+				<p>天猫国际</p>
+				</li>
+				
+				
+			</ul>
+		</div>
+		
+		
+		
+	</body>
+	<script src="css/swiper-3.4.2.min.js"></script>
+	<script>
+		(function(doc,win){  
+    	 var docEl =doc.documentElement,  
+             resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',  
+             recalc = function(){  
+                 var clientWidth = docEl.clientWidth>1242 ? 1242 :docEl.clientWidth;  
+                 if (!clientWidth) {return};  
+                 docEl.style.fontSize = 100 * (clientWidth/1242) + 'px';  
+             };  
+	     recalc();  
+	     if (!doc.addEventListener) return;  
+	     win.addEventListener(resizeEvt, recalc, false);  
+	     
+	     doc.addEventListener('DOMContentLoaded', recalc, false); 
+	     
+	 })(document,window)
+		
+		var mySwiper = new Swiper('#swiper1', {
+			autoplayDisableOnInteraction : false,
+			autoplay: 2000,//可选选项，自动滑动
+//			pagination : '.swiper-pagination',//分页器
+			speed:600,
+			slidesPerView : 4,
+//			loop:true,//循环轮播
+			
+		})
+		var mySwiper2 = new Swiper('#swiper2', {
+			autoplayDisableOnInteraction : false,
+			autoplay: 2000,//可选选项，自动滑动
+			pagination : '.swiper-pagination',//分页器
+			speed:600,
+//			slidesPerView : 4,
+//			loop:true,//循环轮播
+			
+		})
+		
+		
+		
+		
+	</script>
+</html>
