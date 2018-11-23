@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color:#444}/*去除A标签自带的下滑线*/
+li{list-style: none;}/*去除点*/
+img{border: none;}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+}
+img{
+	border:none;
+}
+input{
+	outline：none
+}
+body{
+	font-size: 12px;
+	/*-webkit-text-size-adjust: none;*/
+	 /*-webkit-text-size-adjust : 100% ; 	 
+	  -moz-text-size-adjust : 100% ; 	  
+	 -ms-text-size-adjust : 100% ; 	 */
+
+	/*width: 1200px;
+	margin: 0 auto;*/
+	/*background: #cccccc;*/
+	font-family: "微软雅黑" "黑体" "宋体";
+}
+.clear::after{
+	content: '';
+	display: block;
+	position: absolute;
+	visibility:hidden ;
+	height: 0;
+	width:0;
+	clear:both;			
+	
+}
+
+

@@ -1,0 +1,121 @@
+#footer{
+	width:100%;
+	background: white;
+	
+}
+.footer-center{
+	width:1190px;
+	height:114px;
+	margin: 0 auto;
+	padding: 30px 0px;
+	
+}
+.footer-info{
+	width: 235px;
+	height: 96px;
+	float: left;
+ 
+	text-align: center;	
+	    color: #000;
+    font-size: 12px;	
+}
+.footer-info em{
+	width: 47px;
+	height: 48.98px;
+	display: inline-block;
+	
+}
+.footer-info:nth-of-type(1) em{
+	background: url(../img/sifulan/footer_ico_sprite.png)no-repeat;	
+}
+.footer-info:nth-of-type(2) em{
+	background: url(../img/sifulan/footer_ico_sprite.png) -45px 0px no-repeat;	
+}
+.footer-info:nth-of-type(3) em{
+	background: url(../img/sifulan/footer_ico_sprite.png) -90px 0px no-repeat;	
+}
+.footer-info:nth-of-type(4) em{
+	background: url(../img/sifulan/footer_ico_sprite.png)-137px 0px no-repeat;	
+}
+.footer-info:nth-of-type(5) em{
+	background: url(../img/sifulan/footer_ico_sprite.png)-180px 0px no-repeat;	
+}
+.footer-info span{
+	width: 100%;
+	display: inline-block;
+	font-weight: 700;	
+}
+/*售后部分*/
+#after-sale{
+	
+	width:1190px;
+	height:172px;
+	margin: 0 auto;	
+	border-top: 1px solid black;
+	padding: 30px 0px;
+	background:white url(../img/sifulan/footer_line.png) 1126px 48px no-repeat;
+}
+.after-sale-main{
+	width:190*5px;
+	height: 150px;
+
+	float: left;	
+	font-size: 12px;
+}
+.after-sale-main>li{
+	float: left;
+	width: 190px;
+	height: 100%;			
+}
+.after-sale-main>li>a{
+	display:block;
+	color: #696969;  
+    height: 26px;
+    line-height: 26px;	
+}
+.after-sale-main>li>a:first-child{
+	color: black;
+	font-weight: bolder;
+	margin-bottom: 10px;
+} 
+#hotLine{
+	display: block;
+	width: 200px;
+	min-height:40px;
+	float: left;
+	color: #000;
+    font-weight: 700;
+}
+/*底部备案部分*/
+#for-reference{
+	width: 100%;
+	height: 102.33px;
+	background: #000;
+}
+.for-reference-content{
+	width: 1190px;
+	height: 42.33px;
+	padding: 30px 0px;
+	margin: 0 auto;
+	background: url(../img/sifulan/footer_cxsf.png) 969px 35px no-repeat;
+	
+}
+.for-reference-content li{
+	height:22px;
+    line-height: 22px;
+    text-align: center;
+    margin-left:-90px;
+    
+    
+}
+.for-reference-content li>a{
+	display: inline-block;
+	padding: 0px 20px;
+	font-weight: 400;
+	font-size: 14px;
+	color: #6f6f6f;
+}
+.for-reference-content li .footer-img{
+	text-indent: 10px;
+	background:url(../img/sifulan/footer-redords-icon.png) no-repeat;
+}

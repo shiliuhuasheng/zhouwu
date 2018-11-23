@@ -1,0 +1,48 @@
+#sephora01{width:100%}
+#search-result{width:100%}
+#brand{width: 1190px;margin: 0 auto;}
+.synthesize{width: 100%;margin-top:40px ;height: 31px;}
+#commodity{width:1190px;min-height:100px;margin: 20px auto;/*border: 1px solid silver;*/}
+
+.search-result-head{padding:30px 0 14px 0;box-sizing:border-box;border-bottom:1px solid #000;width: 1190px;height: 64px;margin: 0 auto;}
+.search-result-head>li{float: left;line-height: 20px;}
+.search-result-head>li>a{padding-right: 10px;color: #000;}
+.search-result-head>li:last-child{float:right}
+.search-result-head>li #total{color: #666;}
+
+/*品牌部分-02******************/
+.brand-info{position:relative;border-bottom:1px solid black;width:1190px;height:129px;padding-top: 40px;}
+.brand-info .brand-left{width: 120px;height: 100%;float: left;}
+.brand-info .brand-center{border-left:1px solid #CCCCCC;border-top:1px solid #CCCCCC;width: 931px;max-height: 275px;float: left;}
+.brand-info .brand-center>li{border-bottom:1px solid #CCCCCC;border-right:1px solid #CCCCCC; width: 132px;height: 55px;float: left;}
+.brand-info .brand-center>a>li>img{width: 100%;height: 100%;}
+.brand-info .brand-right{width: 120px;float: right;text-align: right;}
+.brand-info .brand-right>a{padding: 5px;text-align: right;}
+
+/*品牌分类****/
+.classify{position:relative;}
+.classify>ul>li{font-size:14px;width:1190px;height: 31px;padding-top: 16px;border-bottom: 1px solid #DDDDDD;}
+.classify>ul>li:last-of-type{border-bottom: 1px solid black;}
+.classify>ul>li>div{font-size:14px;font-weight:bold;width: 120px;height: 100%;float: left;}
+.classify>ul>li>ul{float: left;}
+.classify>ul>li>ul>li{float:left;width: 138px;height: 100%;}
+.classify>ul>li>p{width: 120px;height: 100%;float: right;}
+.classify .more{line-height:32px;text-align:center;z-index:2;position:absolute;width:100px;height:32px;background: white;border: 1px black solid;bottom:-31px;left: 50%;margin-left:-50px;border-top:none;}
+.synthesize-nav{width: 1190px;margin: auto;}
+.synthesize-nav>li{border:1px solid #A5A5A5;float: left;border-left:none;border-right:none;}
+.synthesize-nav>li:last-of-type{border-right:1px solid #A5A5A5;}
+.synthesize-nav>li:first-of-type{background:black;}
+.synthesize-nav>li:first-of-type>a{color: white;}
+.synthesize-nav>li>a{display:inline-block;padding: 7px 30px;}
+.synthesize .iput{margin-left:15px;width:100px;line-height: 31px;float: left;}
+.synthesize .iput>input{background:white;margin-top: 10px;}
+.synthesize .iput>span{font-size:14px ;}
+.commodity-info{display: flex;flex-wrap:wrap;justify-content: space-between;width: 100%;}
+.commodity-info>li{box-sizing:border-box;padding:15px 15px 0 15px;width: 237px;height: 320px;border-bottom: 1px solid #DDDDDD;border-right:1px solid #DDDDDD ;}
+.commodity-info>li:nth-of-type(5n){border-right:none;}
+.commodity-info>li>a{margin:0 auto 20px;display:block;wodth:180px;height: 180px;}
+.commodity-info>li>a>img{width: 100%;height: 100%;}
+.commodity-info>li>p{font-size: 14px;}
+.commodity-info>li>p:first-of-type{font-weight:700;}
+.commodity-info>li>p:last-of-type{line-height: 30px;font-size: 12px;}
+.commodity-info>li>p>a:hover{color: red; ;}

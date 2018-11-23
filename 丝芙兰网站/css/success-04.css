@@ -1,0 +1,14 @@
+#warp{width:100%}
+.commodity-list{width:1190px;margin: 0 auto;}
+.commodity-list .top{text-indent:30px;font-size:20px;width: 100%;height: 30px;margin-top: 30px;}
+.center{}
+.center li{padding-bottom:20px;border-bottom:1px solid #DDDDDD;width: 100%;height: 90px;margin: 30px 0;}
+.center li img{width:90px;height: 90px;margin: 0 30px;float: left;}
+.center li .list_info{height: 100%;width: auto;float: left;}
+.center li .list_info p{line-height: 23px;}
+.center li .btn{position:relative;width: 400px;height: 100%;float: right;}
+.center li .btn button{border:none;font-size:16px;display:ininline-block;width: 160px;height:40px;margin-top:50px;}
+.center li .btn button:first-of-type{background:black;}
+.center li .btn button:last-of-type{background: red;}
+.center li .btn button:last-of-type:hover{background: black;}
+.center li .btn button a{color: white;}

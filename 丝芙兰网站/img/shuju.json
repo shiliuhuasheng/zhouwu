@@ -1,0 +1,268 @@
+{
+	"slideshow":[
+		"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_valueset_20181018.gif",
+		"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_favoriteskit_20181018.jpg",
+		"https://ssl4.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_maskfestival_20181011.jpg",
+		"https://ssl3.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_hairfestival_20181019.jpg",
+		"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_cls_20181011.jpg"
+	],
+	"minimg":[
+		"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_weeklyspecial_20181018.jpg",
+		"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_miniheroguerlain_20181018.jpg",
+		"https://ssl3.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_miniheroarmani_20181018.jpg"
+	],
+	"min_slideshow":[
+		"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_superbrand1_20181018.jpg",
+		"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_superbrand2_20181018.jpg"
+	],
+  	"aa":[
+  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+		{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+		{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+		{"name":"雅诗兰黛","img":"https://ssl1.sephorastatic.cn/wcsfrontend/brand/esteelauder/esteelauder_144X60.png"},
+		{"name":"SK-II","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/sk-ii/sk-ii_144X60.png"},
+		{"name":"蒂芙尼","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/tiffanyco/tiffanyco_144X60.png"},
+		{"name":"黎珐","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/refa/refa_144X60.png"},
+		{"name":"娇兰","img":"https://ssl1.sephorastatic.cn/wcsfrontend/brand/guerlain/guerlain_144X60.png"},
+		{"name":"馥蕾诗","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/fresh/fresh_144X60.png"},
+		{"name":"蔚蓝之美","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/wei/wei_144X60.png"},
+		{"name":"圣罗兰美妆","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/ysl/ysl_144X60.png"},
+		{"name":"迪奥","img":"https://ssl1.sephorastatic.cn/wcsfrontend/brand/dior/dior_144X60.png"},
+		{"name":"彼得罗夫","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/peterthomasroth/peterthomasroth_144X60.png"},
+		{"name":"纪梵希","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/givenchy/givenchy_144X60.png"},
+		{"name":"娇韵诗","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/clarins/clarins_144X60.png"}
+  	
+  	],
+  	"Boutique":{
+		"nub1":{
+			"bgimg":"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_autumnlip_20181018.jpg",
+			"name":"GUERLAIN","info":"娇兰臻彩宝石唇膏","pic":"280.00","url":"https://ssl3.sephorastatic.cn/products/4/3/2/2/3/4/1_n_06299_180x180.jpg",
+			"name2":"GIORGIOARMANI","info2":"阿玛尼臻致丝绒哑光唇釉","pic2":"310.00","url2":"https://ssl2.sephorastatic.cn/products/2/6/3/4/1/7/1_n_06312_180x180.jpg"		
+		},
+		"nub2":{
+			"bgimg":"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_whatsnew_20181012.jpg",
+			"name":"BENEFIT","info":"贝玲妃你好开心粉底液","pic":"90.00","url":"https://ssl3.sephorastatic.cn/products/4/3/4/5/2/3/1_n_06628_180x180.jpg",
+			"name2":"MarieDalgarColorStudio","info2":"玛丽黛佳色彩工作室干玫瑰颊彩盘","pic2":"299.00","url2":"https://ssl1.sephorastatic.cn/products/4/5/5/4/3/3/1_n_06618_180x180.jpg"	
+		},
+		"nub3":{
+			"bgimg":"https://ssl3.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_beauty_20181011.jpg",
+			"name":"CAUDALIE","info":"欧缇丽葡萄水保湿舒缓喷雾","pic":"60.00","url":"https://ssl1.sephorastatic.cn/products/2/5/3/5/0/0/1_n_05476_180x180.jpg",
+			"name2":"CLINIQUE","info2":"倩碧匀净亮采粉底液","pic2":"295.00","url2":"https://ssl1.sephorastatic.cn/products/4/1/0/1/6/1/1_n_06103_180x180.jpg"		
+		}
+		
+		
+	},
+  	
+  	"slincare":[
+  		{"name":"LANCOME","info":"兰蔻塑颜紧致焕白霜狂欢礼盒","url":"https://ssl1.sephorastatic.cn/products/4/5/4/5/5/5/1_n_06594_180x180.jpg","pic":"895.00"},
+  		{"name":"ESTEELAUDER","info":"雅诗兰黛修护提拉王牌精华...","pic":"1830.00","url":"https://ssl1.sephorastatic.cn/products/4/4/9/1/1/7/1_n_06483_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰柠檬籽阳光限量礼盒","pic":"299.00","url":"https://ssl3.sephorastatic.cn/products/4/4/0/7/3/6/1_n_06186_180x180.jpg"},
+  		{"name":"Fresh","info":"馥蕾诗明星单品悦享礼盒（...","pic":"650.00","url":"https://ssl2.sephorastatic.cn/products/4/5/4/4/4/0/1_n_06655_180x180.jpg"},
+  		{"name":"ReFa","info":"ReFa 经典焕颜美容仪...","pic":"1690.00","url":"https://ssl2.sephorastatic.cn/products/4/5/7/0/4/4/1_n_06655_180x180.jpg"},
+  		{"name":"BIOTHERM","info":"碧欧泉皇牌保湿面霜礼盒","pic":"385.00","url":"https://ssl4.sephorastatic.cn/products/4/4/9/3/1/5/1_n_06655_180x180.jpg"},
+  		{"name":"欧树星品套装","info":"NUXE","pic":"400.00","url":"https://ssl2.sephorastatic.cn/products/4/4/9/7/4/7/1_n_06655_180x180.jpg"},
+  		{"name":"LANCASTER","info":"兰嘉丝汀玫瑰舒润套装（粉..","pic":"533.00","url":"https://ssl2.sephorastatic.cn/products/3/7/3/4/2/1/1_n_06606_180x180.jpg"}
+  	],
+  	"makeup":[
+  		{"name":"MarieDalgarColorStudio","info":"玛丽黛佳色彩工作室干玫瑰","pic":"299.00","url":"https://ssl3.sephorastatic.cn/products/4/5/5/4/3/4/1_n_06655_180x180.jpg"},
+  		{"name":"LANCOME","info":"兰蔻菁纯丝绒雾面唇膏","pic":"￥270.00","url":"https://ssl1.sephorastatic.cn/products/4/4/5/1/2/9/1_n_06628_180x180.jpg"},
+  		{"name":"DIOR","info":"克丽丝汀迪奥魅惑俏唇釉","pic":"￥300.00","url":"https://ssl2.sephorastatic.cn/products/4/2/8/3/9/5/1_n_06628_180x180.jpg"},
+  		{"name":"M.A.C","info":"魅可彩妆大师-三色唇部套..","pic":"￥510.00","url":"https://ssl2.sephorastatic.cn/products/4/5/5/2/5/0/1_n_06655_180x180.jpg"},
+  		{"name":"MAKEUPFOREVER","info":"玫珂菲水感裸妆套装","pic":"480.00","url":"https://ssl2.sephorastatic.cn/products/4/3/9/4/4/2/1_n_06143_180x180.jpg"},
+  		{"name":"YSL","info":"圣罗兰莹亮纯魅液体唇膏","pic":"310.00","url":"https://ssl2.sephorastatic.cn/products/4/2/7/7/9/1/1_n_06655_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰染唇膏","pic":"95.00","url":"https://ssl1.sephorastatic.cn/products/3/4/8/7/9/9/1_n_05794_180x180.jpg"},
+  		{"name":"BENEFIT","info":"贝玲妃缤纷派对腮红盘","pic":"￥550.00","url":"https://ssl3.sephorastatic.cn/products/3/9/7/5/3/0/1_n_06655_180x180.jpg"}
+  	
+  	],
+  	"fragrancr":[
+  		{"name":"KENZO","info":"凯卓花样年华气垫香氛","pic":"400.00","url":"https://ssl3.sephorastatic.cn/products/4/3/5/9/3/6/1_n_06628_180x180.jpg"},
+  		{"name":"BVLGARI","info":"宝格丽罗马之夜佳人尊享礼..","pic":"1000.00","url":"https://ssl3.sephorastatic.cn/products/4/5/8/5/7/5/1_n_06599_180x180.jpg"},
+  		{"name":"DIOR","info":"克丽丝汀迪奥迪奥小姐随行...","pic":"380.00","url":"https://ssl1.sephorastatic.cn/products/4/2/5/9/5/4/1_n_06273_180x180.jpg"},
+  		{"name":"YSL","info":"圣罗兰黑色奥飘茗女士香水","pic":"770.00","url":"https://ssl2.sephorastatic.cn/products/3/0/6/7/4/6/1_n_06580_180x180.jpg"},
+  		{"name":"MIUMIU","info":"缪缪粉漾女士香水","pic":"620.00","url":"https://ssl4.sephorastatic.cn/products/4/2/6/8/6/5/1_n_06233_180x180.jpg"},
+  		{"name":"GIVENCHY","info":"纪梵希绅士淡香水","pic":"630.00","url":"https://ssl4.sephorastatic.cn/products/V/S/9/8/1/7/3/0/1_n_06580_180x180.jpg"},
+  		{"name":"YSL","info":"圣罗兰黑色奥飘茗女士香水","pic":"770.00","url":"https://ssl2.sephorastatic.cn/products/3/0/6/7/4/6/1_n_06580_180x180.jpg"},
+  		{"name":"MIUMIU","info":"缪缪粉漾女士香水","pic":"620.00","url":"https://ssl4.sephorastatic.cn/products/4/2/6/8/6/5/1_n_06233_180x180.jpg"}
+  	],
+  	"tools":[
+  		{"name":"SHUUEMURA","info":"植村秀55号粉底刷","pic":"480.00","url":"https://ssl1.sephorastatic.cn/products/4/1/0/5/5/8/1_n_05506_180x180.jpg"},
+  		{"name":"beautyblender","info":"美妆蛋原创美妆蛋女神宝座...","pic":"210.00","url":"https://ssl2.sephorastatic.cn/products/4/2/6/1/3/5/1_n_06221_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰钻石形粉底刷","pic":"379.00","url":"https://ssl4.sephorastatic.cn/products/4/3/8/3/8/8/1_n_06655_180x180.jpg"},
+  		{"name":"M.A.C","info":"魅可#196斜角平头粉底...","pic":"350.00","url":"https://ssl1.sephorastatic.cn/products/3/3/5/2/1/0/1_n_06655_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰柔肤化妆棉三包装惠...","pic":"93.60","url":"https://ssl1.sephorastatic.cn/products/V/S/9/7/5/7/4/7/1_n_06162_180x180.jpg"},
+  		{"name":"BOBBIBROWN","info":"芭比波朗魔术底妆刷","pic":"420.00","url":"https://ssl1.sephorastatic.cn/products/2/7/6/4/3/4/1_n_06346_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰漫威英雄彩妆刷套装","pic":"399.00","url":"https://ssl3.sephorastatic.cn/products/4/4/5/0/7/0/1_n_06584_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰美国队长随身香水喷...","pic":"129.00","url":"https://ssl4.sephorastatic.cn/products/4/4/5/0/7/1/1_n_06606_180x180.jpg"}
+  	],
+  	"manSkincare":[
+  		{"name":"BIOTHERM","info":"碧欧泉男士滋养紧致青春精...","pic":"990.00","url":"https://ssl3.sephorastatic.cn/products/V/S/1/0/0/0/1/7/9/1_n_06580_180x180.jpg"},
+  		{"name":"LABSERIES","info":"朗仕精选限量礼盒","pic":"875.00","url":"https://ssl3.sephorastatic.cn/products/4/3/8/5/1/0/1_n_06606_180x180.jpg"},
+  		{"name":"LABSERIES","info":"朗仕俊范多效洁面凝胶&保...","pic":"466.00","url":"https://ssl2.sephorastatic.cn/products/V/S/1/0/0/0/1/7/7/1_n_06545_180x180.jpg"},
+  		{"name":"FOREO","info":"FOREO露娜™玩趣增強...","pic":"399.00","url":"https://ssl1.sephorastatic.cn/products/3/9/5/2/4/8/1_n_06307_180x180.jpg"},
+  		{"name":"BIOTHERM","info":"碧欧泉男士新水动力爽肤水...","pic":"260.00","url":"https://ssl1.sephorastatic.cn/products/V/S/1/0/0/0/1/6/4/1_n_06545_180x180.jpg"},
+  		{"name":"DTRT","info":"杜比丽夫男士温和洁面乳惠...","pic":"179.00","url":"https://ssl1.sephorastatic.cn/products/V/S/9/7/9/5/0/2/1_n_06307_180x180.jpg"},
+  		{"name":"PHILIPS","info":"飞利浦眼部能量仪","pic":"899.00","url":"https://ssl2.sephorastatic.cn/products/4/2/5/6/7/1/1_n_05725_180x180.jpg"},
+  		{"name":"LABSERIES","info":"朗仕控油净透收敛水惠选套...","pic":"230.00","url":"https://ssl2.sephorastatic.cn/products/V/S/9/8/1/6/2/2/1_n_06315_180x180.jpg"}
+  	],
+  	"bodyCare":[
+  		{"name":"Fresh","info":"馥蕾诗海莓修复滋润护手霜","pic":"210.00","url":"https://ssl4.sephorastatic.cn/products/3/1/2/9/6/0/1_n_06606_180x180.jpg"},
+  		{"name":"WEI","info":"蔚蓝之美冬日邂逅限量手霜...","pic":"￥190.00","url":"https://ssl3.sephorastatic.cn/products/4/5/6/9/1/5/1_n_06655_180x180.jpg"},
+  		{"name":"SEPHORACOLLECTION","info":"丝芙兰柔滑滋养身体磨砂啫...","pic":"119.00","url":"https://ssl3.sephorastatic.cn/products/3/9/7/5/3/0/1_n_06655_180x180.jpg"},
+  		{"name":"CLARINS","info":"娇韵诗新生之美关怀礼盒","pic":"1090.00","url":"https://ssl3.sephorastatic.cn/products/4/4/6/3/8/7/1_n_06328_180x180.jpg"},
+  		{"name":"CAUDALIE","info":"欧缇丽冬季呵护套装-沁心...","pic":"88.00","url":"https://ssl3.sephorastatic.cn/products/3/3/9/2/1/2/1_n_06628_180x180.jpg"},
+  		{"name":"NUXE","info":"欧树多效滋养干爽护理油“...","pic":"290.00","url":"https://ssl2.sephorastatic.cn/products/V/S/1/0/0/0/1/0/4/1_n_06545_180x180.jpg"},
+  		{"name":"KENZOKI","info":"凯卓倾心之吻润唇膏","pic":"￥240.00","url":"https://ssl3.sephorastatic.cn/products/2/4/4/5/7/9/1_n_06178_180x180.jpg"},
+  		{"name":"YAMAN","info":"雅萌气穴溶脂仪（美胸版）...","pic":"2999.00","url":"https://ssl3.sephorastatic.cn/products/V/S/9/8/1/6/0/2/1_n_06309_180x180.jpg"}
+  	],
+  	"hairCare":[
+  		{"name":"SP","info":"德研丝秀发焕能角蛋白养护...","pic":"298.00","url":"https://ssl1.sephorastatic.cn/products/4/0/1/6/6/4/1_n_06048_180x180.jpg"},
+  		{"name":"SEBASTIAN","info":"塞巴斯汀随心所欲发泥","pic":"278.00","url":"https://ssl2.sephorastatic.cn/products/2/6/5/6/7/3/1_n_06162_180x180.jpg"},
+  		{"name":"PERCYANDREED","info":"佩妍丽丰盈蓬松喷雾","pic":"50.00","url":"https://ssl1.sephorastatic.cn/products/3/1/3/0/2/3/1_n_05820_180x180.jpg"},
+  		{"name":"PERCYANDREED","info":"佩妍丽奇迹护发油","pic":"218.00","url":"https://ssl1.sephorastatic.cn/products/3/7/1/8/5/6/1_n_06328_180x180.jpg"},
+  		{"name":"WELLA","info":"威娜 氨基酸双重强化洗发...","pic":"238.00","url":"https://ssl3.sephorastatic.cn/products/4/4/4/2/9/9/1_n_06328_180x180.jpg"},
+  		{"name":"WELLA","info":"威娜 氨基酸双重强化润发...","pic":"258.00","url":"https://ssl1.sephorastatic.cn/products/4/4/4/3/0/1/1_n_06328_180x180.jpg"},
+  		{"name":"WELLA","info":"威娜 氨基酸双重强化滋养...","pic":"238.00","url":"https://ssl3.sephorastatic.cn/products/4/4/4/3/0/0/1_n_06599_180x180.jpg"},
+  		{"name":"SP","info":"德研丝女王节限量礼盒","pic":"696.00","url":"https://ssl3.sephorastatic.cn/products/4/3/1/0/1/1/1_n_06254_180x180.jpg"}
+  	
+  	],
+  	"classify":[
+  		["分类","护肤","彩妆","香水","工具","男士护肤","洗浴护体"],
+  		["适用人群","女士","各种人群","男士","女士","女士",""],
+  		["价格","0-100元","100-299元","299-599元","599-800元 ","800元以上",""],
+  		["适合肤质","各种肤质","油性","敏感性","混合性","干性","其他"]
+  	],
+  	"allGood":[
+  		["热门","魅惑美唇","塑造立体轮廓","热销气垫"],
+  		["功效","保湿补水","底妆修容","美白",""],
+  		["护肤","喷雾","美容仪器","独家甄选推荐"],
+  		["彩妆","YSL唇妆","换季底妆攻略","",""],
+  		["香水","迪奥悦之欢香水","全新凯卓气垫香氛",""],
+  		["工具","美妆蛋套装","丝芙兰豪华刷具套装",""],
+  		["男士护肤","清爽护肤不油腻","碧欧泉补水精选",""],
+  		["洗浴护体","丝芙兰沐浴护体","Fresh沁润护手",""],
+  		["美发护发","摆脱受损秀发","滋润发丝改善毛躁",""]
+  	],
+  	"catalogue":[
+  		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+	  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+			{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+			{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+			{"bgimg":"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_navigationhot_20181018.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"雅诗兰黛","img":"https://ssl1.sephorastatic.cn/wcsfrontend/brand/esteelauder/esteelauder_144X60.png"},
+			{"name":"SK-II","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/sk-ii/sk-ii_144X60.png"},
+			{"name":"蒂芙尼","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/tiffanyco/tiffanyco_144X60.png"},
+			{"name":"黎珐","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/refa/refa_144X60.png"},
+			{"bgimg":"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/08/banner/hp_tiffany_20180816.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"娇兰","img":"https://ssl1.sephorastatic.cn/wcsfrontend/brand/guerlain/guerlain_144X60.png"},
+			{"name":"馥蕾诗","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/fresh/fresh_144X60.png"},
+			{"name":"蔚蓝之美","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/wei/wei_144X60.png"},
+			{"name":"圣罗兰美妆","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/ysl/ysl_144X60.png"},
+			{"bgimg":"https://ssl4.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_hairfloor_20181011.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"迪奥","img":"https://ssl1.sephorastatic.cn/wcsfrontend/brand/dior/dior_144X60.png"},
+			{"name":"彼得罗夫","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/peterthomasroth/peterthomasroth_144X60.png"},
+			{"name":"纪梵希","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/givenchy/givenchy_144X60.png"},
+			{"name":"娇韵诗","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/clarins/clarins_144X60.png"},
+			{"bgimg":"https://ssl4.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_bodyfloor_20181011.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+	  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+			{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+			{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+			{"bgimg":"https://ssl4.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_manfloor_20181018.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+	  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+			{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+			{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+			{"bgimg":"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/09/banner/hp_toolfloor_20180906.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+	  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+			{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+			{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+			{"bgimg":"https://ssl3.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_frafloor_20181018.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+	  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+			{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+			{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+			{"bgimg":"https://ssl2.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_mufloor_20181018.jpg"}
+		],
+		[
+	  		["热门","魅惑美唇","电光橘唇","聚光红唇","星光粉唇","暖光砖红唇","柔光豆沙唇","水光透唇"],
+	  		["精油护肤巧搭配 ","精油滋养","精华呵护"," 乳霜焕能"],
+	  		["容精选面膜 ","润泽保湿","美白亮肤 ","提拉紧致 ","深层清洁"],
+	  		["热销气垫","轻巧便携实力派  "],
+	  		["塑造立体轮廓","人气腮红","明星高光","实力修容"],
+	  		["魅惑电眼","眼线笔","彩妆盘","眼线液"],
+	  		{"name":"丝芙兰","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/sephoracollection/sephoracollection_144X60.png"},
+	  		{"name":"兰蔻","img":"https://ssl2.sephorastatic.cn/wcsfrontend/brand/lancome/lancome_144X60.png"},
+			{"name":"欧树","img":"https://ssl3.sephorastatic.cn/wcsfrontend/brand/nuxe/nuxe_144X60.png"},
+			{"name":"魅可","img":"https://ssl4.sephorastatic.cn/wcsfrontend/brand/mac/mac_144X60.png"},
+			{"bgimg":"https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/10/banner/hp_skinfloor_20181018.jpg"}
+		]
+  	
+  	]
+  	
+}
+

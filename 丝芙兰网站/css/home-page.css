@@ -1,0 +1,277 @@
+header{
+	min-height: 20px;
+}
+#home-page{
+	width:1190px;
+	height: 600px;
+	margin: 0 auto 70px;
+	font-size: 16px;
+	
+}
+#search-box{
+	box-shadow: 0 0 0  rgba(0,0,0,0) !important;
+}
+/*搜索栏隐藏部分*********************/
+.search-box.ycbox{
+	display: none;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	left:0;
+	top:0;	
+	z-index: 999;
+	background:white;
+	padding:10px 0;
+}
+.search-box.ycbox>.search-box{padding-top:0;}
+
+/*搜索栏隐藏部分结束**********************/
+
+/*公用部分的hover效果*/
+.uls>li>a:hover{color: red !important;}
+/*公用部分的hover效果结束*/
+
+
+/*左边固定隐藏部分****************/
+.flexd-left{cursor: pointer;position:fixed;top:70px;left:120px;width: 40px;height:476px;background:white;display: none;}
+.flexd-left-info{font-size: 12px;}
+.flexd-left-info>li{padding-top: 20px;width: 26px;height: 48px;margin-left:7px;}
+/*左边固定隐藏部分结束****************/
+
+/*右边固定置顶**********************/
+.flexd-right{display:none;position: fixed;bottom: 60px;right: 130px;width: 40px;height: 200px;z-index: 99;}
+.flexd-stick{width: 40px;height: 200px;}
+.flexd-stick>li{font-size:12px;width: 40px;height: 40px;position: relative;}
+.flexd-stick>li>a{color: #000;}
+.flexd-stick>li>a .personal-information{display: none;color:white;z-index:3;text-align:center;line-height:40px;width: 80px;height: 40px;background:#000;position: absolute;right:100%;top:0;}
+.flexd-stick>li>a .image{display:block;width:40px;height:40px;overflow:hidden;background:#aaa url(../img/sifulan/sprite_toolbar_new.png) 0 0 no-repeat;}
+.flexd-stick>li:nth-of-type(2) a .image{background-position:0 -40px;}
+.flexd-stick>li:nth-of-type(3) a .image{background-position:0 -160px;}
+.flexd-stick>li:nth-of-type(4) a .image{background-position:0 -240px;}
+.flexd-stick>li:nth-of-type(5) a .image{background-position:0 -280px;}
+.flexd-stick>li>a>em:hover{background-color: #000;}
+.flexd-stick>li:hover .personal-information{display: block;}
+/*右边固定置顶结束*************************/
+
+/*导航栏部分*******************************/
+
+.home-page-bottom{
+	width:100%;
+	display: flex;
+	
+}
+/*左边商品分类**********************/
+.home-page-left{
+	width: 240px;
+	height: 550px;
+	font-size: 14px;
+	background: #fff;
+	float: left;		
+	position:relative;
+	z-index: 99;
+}
+
+.home-page-left> .xin1{z-index:-1;overflow:hidden;display:block;position:absolute;width:55px;height:55px;top:20px;left:-35px;}
+.home-page-left> .xin1>img{z-index:-1;width:55px;height:77px;}
+.home-page-left> .xin2{display:block;width:55px;height:55px;position:absolute;top:315px;left:203px;background: url(../img/sifulan/navigation_sprite_wrap.png) -30px -98px no-repeat;background-size:203% 253%;}
+
+.catalogue{
+	-webkit-text-size-adjust: none;
+	z-index: 999;
+	height: 550px;	
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	position: relative;
+}
+.catalogue>li{
+	height:44px;
+	width:225px;
+	padding: 8px 0 8px 15px;
+	border-bottom: 1px solid #f5f5f5;
+	background: white;
+	position: relative;
+	
+}
+.catalogue>li:hover{
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	z-index: 100;
+	width: 227px;
+	border-right:none;
+}
+
+.catalogue>li>a{
+	font-weight: 700;
+	color: #000000;
+}
+.catalogue>li>ul{
+	display: flex;
+	margin-left:-5px ;
+	
+	   
+}
+.catalogue>li>ul>li>a{
+	display: inline-block;	
+	font-size: 12px;
+	padding: 0 5px;
+    color: #8a8a8a;
+}
+
+/*热门隐藏部分**********/
+.hot-conceal{display:none;font-size:14px;font-family:"黑体";padding:30px;box-sizing:border-box;box-shadow: 3px 0 3px rgba(0,0,0,.1);width: 950px;height:550px;position:absolute;left:437px;top:147px;background:white;z-index:5;color: #8a8a8a;}
+.hot-conceal-left{width:70%;height: 100%;float: left;}
+.hot-conceal-top{border-bottom:1px solid #f5f5f5;width:98%;height:50px;float: left;}
+.hot-conceal-top>h2{line-height: 40px;}
+.hot-conceal-centen{display:flex;justify-content: space-between;width: 100%;height:75%;}
+.hot-conceal-centen>li{width:200px;height: 100%;}
+.hot-one{width:100%;padding-top: 15px;}
+.hot-one>p{width: 100%;height: 20px;}
+.hot-one> .hot-one-info{width: 100%;}
+.hot-one> .hot-one-info>li{float:left;padding-right: 15px;padding-top:5px;color: #8a8a8a;height: 16px;}
+.hot-conceal-bottom{display: flex;justify-content:space-around;}
+.hot-conceal-bottom>li{width:144px;height: 60px;}
+.hot-conceal-bottom>li>a>img{width: 100%;height: 100%;}
+.hot-conceal-img{width: 30%;float: right;}
+.hot-conceal-img>a>img{margin-top:7px;width: 270px;height: 470px;}
+
+/*右边轮播图部分*******************/
+.home-page-right{
+	float: right;
+	height: 550px;
+	width:950px;				
+}
+.slideshow{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	
+}
+.slideshow a img{
+	position: absolute;
+	height: 100%;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.slideshow a img:first-of-type{
+	display: block;
+}
+.slideshow-bottom{
+	height: 140px;
+	width: 950px;
+	padding-left:10px ;
+	padding-top:10px ;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.slideshow-bottom a{
+	width:290px;
+	height: 140px;
+	display: block;
+	background: sandybrown;		
+}
+.slideshow-bottom a:nth-of-type(1){
+	width: 340px;
+}
+.slideshow-bottom a img{	
+	width:100%;
+	height:100%;
+}
+
+/*左右按钮************/
+.slideshow:hover p{display: block;}
+.slideshow>p{display:none;z-index:50;width:40px;height:80px;position:absolute;top:50%;margin-top:-40px;line-height: 80px;text-align:center;background: rgba(0,0,0,0.3);color:white;font-size:50px;font-family:黑体;}
+.btn-left{left:0}
+.btn-right{right:0}
+
+.lis{position:absolute;width:500px;height: 10px;bottom:15px;left:50%;margin-left:-250px;z-index:50 ;}
+.lis>li{height: 6px;background:rgba(255,255,255,0.5);margin-left: 10px;float: left;}
+.lis>li:first-of-type{background:rgba(255,255,255,1)}
+
+/*全部品牌部分************************/
+#main-body{
+	background:rgba(239,239,239,0.7) ;
+	font-size: 14px;
+	padding-top:230px;
+	margin-top:-230px ;
+}
+
+
+.brand{width:1190px;height:36px;margin:0 auto;}
+.brand>h2{width: 387px;height: 100%;float:left;font-size:20px;}
+.brand>h2>span{color: #000000;font-size:24px;font-weight: 700;}	
+.brand-hot{float: right;}
+.brand-hot li{line-height: 36px;float:left;cursor: pointer;transform: translate(0,5px); }
+.brand-hot li:last-child a{padding: 0 0 0 15px;}
+.brand-hot li:first-child{font-weight: bold;}
+.brand-hot li a{padding:0 15px 0px;font-size: 14px;color: #000;}
+.brand-hot li:hover{font-weight: bolder;}
+.brand-centent{width: 1190px;height:400px;margin: 0 auto;}
+.brand-centent-left{width: 50%;height: 320px;float: left;position: relative;}
+.brand-centent-left a img{width:595px;height:320px;position: absolute;top:0;left: 0;display: none;}
+.brand-centent-left a img:first-of-type{display: block;}
+.brand-info{width:50%;height: 320px;float: right;display:flex;flex-wrap:wrap;overflow: hidden;}
+.brand-info>li{background:white;border-bottom:1px solid #f2f2f2;border-right:1px solid #f2f2f2;box-sizing:border-box;width: 148.7px;height:80px;position: relative;}
+.brand-info>li a img{width:144px;height:60px;position: absolute;}
+.brand-info>li .sifulan{text-align:center;width: 100%;height:100%;position: absolute;top: 0;left: 0;background: rgba(0,0,0,0.8);z-index: 1;display: none;}
+.sifulan .sifulan-name{text-align:center;line-height:50px;font-size:12px;color:white;height: 50%;width: 100%;display: block;}
+.sifulan .sifulan-click{text-align:center;line-height:20px;font-size:12px;color:white;width: 85px;height: 20px;display: inline-block;border-radius:15px;background: red;}
+.brand-info>li:hover .sifulan {display: block;}
+
+/*精品推荐部分***************************/
+#recommend{margin: 0 auto 70px;width: 1190px;}
+#recommend .recommend-info{height: 620px;width: 100%;display: flex;flex-wrap:wrap;justify-content: space-between;}
+.recommend-info>li{position:relative;width: 590px;height: 300px;}
+.recommend-info>li>img{width: 100%;height: 100%;}
+.recommend-info-right{font-size:14px;width: 200px;height: 260px;position: absolute;right:10px;top: 10px;}
+.recommend-info-right>a>li{position:relative;box-sizing:border-box;width: 200px;height: 140px;padding: 10px 0 0 10px;}
+.recommend-info-right>a>li>p:nth-of-type(1){font-weight: bolder;}
+.recommend-info-right>a>li>p:nth-of-type(3){line-height:35px;}
+.recommend-info-right>a>li>p:nth-of-type(2){white-space: nowrap;overflow:hidden;text-overflow:ellipsis;}
+.recommend-info-right>a>li>img{transition:all .6s;	width: 90px;height: 90px;position:absolute;right: 0;bottom: 0;}
+.recommend-info-right>a>li:hover img{transform: translate(-5px , 0);}
+
+/*护肤品类****************************/
+.brand-hot li.one{font-weight:normal;}
+.brand-hot li.one:hover{font-weight:bolder;}
+.skincare{width: 1190px;margin:0 auto 70px;height: 570px;}
+.skincare-left{width: 390px;height: 500px;float: left;}
+.skincare-left>img{width: 100%;height: 100%;}
+.skincare-right{float: right; }
+.skincare-info{width: 800px;height: 500px;background: white;}
+.skincare-info>li{position:relative;float:left;border-bottom:1px solid #f5f5f5;border-right:1px solid #f5f5f5;width: 188.9px;height: 219px;padding: 15px 0px 15px 10px;}
+.skincare-info>li>a>div:first-child{font-weight: 800;color: #000;}
+.skincare-info>li>a>div:nth-of-type(2){white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.skincare-info>li>a>div:nth-of-type(3){line-height: 22px;z-index: 2;}
+.skincare-info>li>a>img{transition:all 0.3s;width: 180px;height: 180px;position: absolute;bottom: 0;right: 0;}
+.skincare-info>li:hover a>img{transform: translate(-10px,0);}
+.skincare-bottom{background:white; width: 1190px;margin:10px auto 0;}
+.logo-img{width:1190px;height: 60px;display: flex;justify-content: space-between;overflow: hidden;}
+.logo-img>li{position:relative;width: 144px;height: 60px;}
+.logo-img>li>img{width: 100%;height: 100%;}
+.logo-img>li:after{content: "";position: absolute;width:2px;height:15px;right:-4px;top:22px;background: #acacac;z-index:5;}
+
+/*彩妆品类**********************/
+
+
+/*香氛品类************************/
+
+
+/*工具品类**********************/
+
+
+/*男士护肤品类*****************/
+
+/*洗浴护体品类************/
+
+/*美发护肤品类***********/
+
+/*猜你喜欢****************/
+.guess-you-like{width: 1190px;margin: 0 auto;padding-bottom: 70px;}
+.like-info{width:100%;background:white;display: flex;flex-wrap: wrap;justify-content:space-between;}
+.like-info>li{text-align:center;width: 237px;height:259px;border-right:1px solid #f5f5f5;border-bottom:1px solid #f5f5f5}
+.like-info>li>a>img{width: 180px;height: 180px;display: inline-block;}
+.like-info>li>a>p{color:#000;padding:0 20px;text-align:left;}
+.like-info>li>a>p:nth-of-type(1){font-size: 12px;font-weight:bold}
+.like-info>li>a>p:nth-of-type(2){overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 14px;}
+.like-info>li>a>p:nth-of-type(3){padding-top:10px}

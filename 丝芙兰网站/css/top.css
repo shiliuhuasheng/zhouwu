@@ -1,0 +1,264 @@
+#head{
+	width: 100%;
+	background: #000;
+	
+}
+.head-nav{
+	width: 1190px;	
+	height:24px;
+	margin: 0 auto;
+	padding-top: 6px;	
+	font-size: 12px;
+	font-weight: 400;
+	
+}
+.head-nav .one{
+	width:420px;	
+	height:100%;
+	float: left;			
+}
+.head-nav .one>li{
+	float: left;
+	position: relative;
+} 
+.head-nav .two{
+	width:460px;
+	height: 100%;
+	float: right;			
+}
+.head-nav .two>li{
+	float: left;
+	position: relative;	
+	height: 100%;
+	padding-left:10px;
+	
+	
+}
+.head-nav .two>li a{
+	display: inline-block;
+	
+}
+.head-nav a {
+	padding: 0 10px;
+	color: white;
+}
+.head-nav a:hover{
+	color: red;
+}
+.head-nav .one .one1:hover{
+	color:white;
+}.two-my{
+	display: inline-block;	
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left:3px;
+	top: 3px;
+	background: url(../img/sifulan/my-sephora.png) no-repeat;	
+	z-index: 99;
+}
+.head-nav .two .two-vip {
+	padding-left:33px;
+}
+.head-nav .two .two-vip .my-vip{
+	
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left:26px;
+	top: 3px;
+	background: url(../img/sifulan/vip-club.png) no-repeat;	
+	z-index: 99;
+}
+.head-nav .two .two-phone{
+	margin-left:11px ;
+}
+.head-nav .two .two-phone .phone{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left:7px;
+	top: 3px;
+	background: url(../img/sifulan/mobile-sephora.png) no-repeat;	
+	z-index: 99;
+}
+.head-nav .two>li:hover .san{
+
+	transform: rotate(180deg);
+}
+.san{
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: absolute;		
+	border-top: 4px solid white;
+	border-left:4px solid transparent;
+	border-right: 4px solid transparent;
+	right: -5px;
+	bottom:14px;
+	z-index: 99;	
+}
+
+
+.my-show{
+	width: 88px;
+	height:33px;
+	border: 1px solid #A5A5A5;
+	position: absolute;
+	top:100%;
+	line-height: 33px;
+	text-align: center;
+	display: none;
+	z-index: 99;
+	background: white;
+	
+}
+.my-show::after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: absolute;		
+	border-bottom: 8px solid white;
+	border-left:8px solid transparent;
+	border-right: 8px solid transparent;
+	left:40%;
+	top:-8px;
+	opacity: 0.8;	
+	z-index: 99;
+}
+
+.head-nav .two>li:hover .my-show{
+	display: block;	
+}
+.my-show:hover{
+	background:silver;}
+/*	搜索栏部分*/
+#search-box{
+	width: 100%;
+	box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+	background: white;
+	
+}
+.search-box{
+	width: 1190px;
+	
+	margin:0 auto;
+	padding-top:24px;
+}
+.search-box-logo{
+	width: 320px;	
+	float: left;
+}
+.search-box-logo img{
+	width:240px;
+	height: 32px;
+}
+.search-box-center{
+	width: 655px;
+	float: left;
+}
+.search-box-center input{
+	width: 540px;
+	height: 36px;
+	float: left;
+	padding-left:20px ;
+	box-sizing: border-box;
+}
+.search-box-center .inpt-submit{
+	width: 90px;
+	height: 34px;
+	background: #000;
+	border:1px solid #000;
+	float: left;
+	font-size:16px ;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+.search-box-center .uls{
+	width: 100%;
+}
+.search-box-center .uls li{
+	float: left;
+}
+.search-box-center .uls li a{
+	display: inline-block;
+	padding: 0 4px;
+	font-size: 12px;
+	color: #acacac
+}
+.search-box-right {
+	width: 190px;
+	height: 38px;
+	float: right;
+	border: 1px solid silver;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+.search-box-right em{
+	width:18px;
+	height: 26px;
+	display: inline-block;
+	background: url(../img/sifulan/shopping_bag.png);	
+	vertical-align: middle;
+	margin: 0 7px;
+}
+.search-box-right a{
+	color: #000;
+	font-weight: 400;
+}
+.search-box-right a span{
+	color:red;
+}
+.search-box-center .uls>li a:hover{
+	color: red;
+}
+
+.search-box-center .uls>li:nth-child(4) a{
+	color: red;
+}
+/*商品分类**************/
+.home-page-nav{
+	width: 100%;
+	display: flex;
+	padding-top:5px;
+	
+	
+}
+.home-page-nav a{
+	color: white;
+	position: relative;
+	
+}
+.home-page-nav .classify{
+	line-height:36px ;
+	text-indent:15px;
+	font-size:16px ;
+	width: 240px;
+	height: 36px;	
+	background: url(../img/sifulan/classified.png) no-repeat;	
+}
+.home-page-nav .nav-info{
+	width: 740px;
+	height:36px ;
+
+	display: flex;
+	padding-left: 20px;
+	line-height: 36px;
+	
+}
+.home-page-nav .nav-info li>a{
+	padding: 0px 20px;
+	font-size: 16px;
+	color: #000;
+}
+.home-page-nav>a>img{
+	width: 152px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+
+			
+}

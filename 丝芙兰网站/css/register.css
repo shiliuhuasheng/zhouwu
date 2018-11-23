@@ -1,0 +1,56 @@
+#HeaderBg{width: 100%;}
+#HeaderBg .Header-centre{margin:0 auto;width: 1190px;height:89px;}
+#HeaderBg .Header-centre .logo{margin:28px ;width: 225px;height: 33px;float: left;}
+#HeaderBg .Header-centre .logo img{width: 100%;height: 100%;}
+
+/*大背景图部分*************/
+#bodybg{width: 100%;}
+.bodybg-main{min-width:1190px;height: 610px;margin: 0 auto;background: url(../img/sifulan/hp_loginlage_20180830.jpg) no-repeat;background-size:100% 100%;}
+.main-middle{width: 1190px;height: 100%;margin: 0 auto;}
+.main-right{padding:30px 30px;width: 300px;height: 320px;float: right; background:white;margin-right:2%;margin-top: 10%;}
+.inpts{width: 100%;height: 70%;}
+.inpts .inpt-one{position:relative;width: 100%;height:30px ;padding-top:20px;}
+.inpts .inpt-one input{outline:none;padding-left:30px;box-sizing: border-box;width: 100%;height: 100%;}
+.inpts .p1{position:absolute;left:6px;top:25px;width: 20px;height: 20px;background:url(../img/sifulan/LoginIn-icon.png) 0 -20px no-repeat;}
+.inpts .p2{position:absolute;left:6px;top:25px;width: 20px;height: 20px;background: url(../img/sifulan/LoginIn-icon.png) 0 0  no-repeat;}
+.inpts .inpt-one.enter{height: 40px;background: #999;line-height:40px;text-align: center;color:#fff;padding: 0;}
+.inpts .inpt-one.enter>a{color: #fff;font-size: 16px;}
+.icon{width: 100%;height:50px;}
+.icon .weixin{width: 40%;height: 100%;float:left;}
+.icon .weixin>li{width: 24px;height: 24px;padding:5px}
+.icon>p{text-align:right;width:60%;height: 100%;float:right;}
+.icon>p>span>a{color:red;}
+
+/*底部***************/
+#for-reference{
+	width: 100%;
+	height: 102.33px;
+	background: #000;
+}
+.for-reference-content{
+	width: 1190px;
+	height: 42.33px;
+	padding: 30px 0px;
+	margin: 0 auto;
+	background: url(../img/sifulan/footer_cxsf.png) 969px 35px no-repeat;
+	
+}
+.for-reference-content li{
+	height:22px;
+    line-height: 22px;
+    text-align: center;
+    margin-left:-90px;
+    
+    
+}
+.for-reference-content li>a{
+	display: inline-block;
+	padding: 0px 20px;
+	font-weight: 400;
+	font-size: 14px;
+	color: #6f6f6f;
+}
+.for-reference-content li .footer-img{
+	text-indent: 10px;
+	background:url(../img/sifulan/footer-redords-icon.png) no-repeat;
+}
